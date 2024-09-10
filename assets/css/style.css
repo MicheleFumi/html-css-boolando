@@ -37,8 +37,16 @@ a{
 
 .cancel{
     text-decoration: line-through;
-}
+    position: absolute;
+    left: 18%;
+    bottom: 0%;
 
+}
+.discounted, .new{
+    color: var(--bol-discount-color);
+    
+    
+}
 /* #endregion UTILITY */
 
 /* #region COLORS */
@@ -87,14 +95,14 @@ header{
     }
     .discount{
         position: absolute;
-        top: 80%;
+        top: 75%;
         background-color: #ff0000;
         padding: 0.15rem;
     }
     
     .sust{
         position: absolute;
-        top: 80%;
+        top: 75%;
         background-color: green;
         padding: 0.15rem;
         color: white;
@@ -104,7 +112,7 @@ header{
     .sust2{
         left: 0;
         position: absolute;
-        top: 80%;
+        top: 75%;
         background-color: green;
         padding: 0.15rem;
         color: white;
