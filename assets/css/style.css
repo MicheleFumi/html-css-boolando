@@ -35,6 +35,9 @@ a{
     margin-right: 5px;
 }
 
+.cancel{
+    text-decoration: line-through;
+}
 
 /* #endregion UTILITY */
 
