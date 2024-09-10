@@ -143,6 +143,7 @@ header{
 }
 .product:hover .like{
     display: block;
+    color: red;
 }
 
 
