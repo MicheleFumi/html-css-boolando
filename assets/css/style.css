@@ -81,10 +81,30 @@ header{
     .discount{
         position: absolute;
         top: 80%;
+        background-color: #ff0000;
+        padding: 0.15rem;
     }
     
-
+    .sust{
+        position: absolute;
+        top: 80%;
+        background-color: green;
+        padding: 0.15rem;
+        color: white;
+        left: 15%;
+    }
    
+    .sust2{
+        left: 0;
+        position: absolute;
+        top: 80%;
+        background-color: green;
+        padding: 0.15rem;
+        color: white;
+ 
+    }
 }
+   
+
 
 /* #endregion MAIN */
