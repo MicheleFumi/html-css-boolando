@@ -30,9 +30,7 @@ a{
     color: white;
     text-decoration: none;
 }
-.small{
-    width: 30%;
-}
+
 
 
 /* #endregion UTILITY */
@@ -78,7 +76,7 @@ header{
     
     .product{
         position: relative;
-        width: 400px;
+        width: 30%;
     }
     .discount{
         position: absolute;
