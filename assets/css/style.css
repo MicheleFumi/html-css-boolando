@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-size: small;
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
     
 }
 
@@ -69,15 +70,23 @@ header{
 /* #region MAIN */
 .card_container{
     display: flex;
-    width: 70%;
     margin: auto;
     flex-wrap: wrap;
     gap: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     
+    .product{
+        position: relative;
+        width: 400px;
+    }
+    .discount{
+        position: absolute;
+        top: 80%;
+    }
     
 
+   
 }
 
 /* #endregion MAIN */
