@@ -136,16 +136,142 @@ header{
         
     }
 
+    .img{
+        position: relative;
+        max-width: 100%;
     
 
+    }
+    /* #region IMG HOVER */
 
+    .img_hov_levi_relax {
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/1b.webp');
+        background-size: cover;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+         display: none;
+
+    }
+    
+    .img_hov_guess_tee{
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/2b.webp');
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+         display: none;
+
+    }
+
+    .img_hov_zucchero{
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/3b.webp');
+        background-size: cover;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+         display: none;
+
+    }
+
+    .img_hov_levis_tee{
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/4b.webp');
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+        display: none;
+
+    }
+
+    .img_hov_stripe{
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/5b.webp');
+        background-size: cover;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+         display: none;
+
+    }
+
+    .img_hov_maglione_esprit{
+        width: 268.8px;
+        height: 388.067px;
+        background-image: url('../img/6b.webp');
+        background-size: cover;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        object-fit: contain;
+         display: none;
+
+    }
+    /* #endregion IMG HOVER */
 
 }
+/* #region HOVER */
 .product:hover .like{
     display: block;
     color: red;
 }
 
+.product:hover .img_hov_levi_relax{
+    display: block;
+
+}
+
+.product:hover .img_hov_guess_tee{
+    display: block;
+}
+
+.product:hover .img_hov_zucchero{
+    display: block;
+}
+
+.product:hover .img_hov_levis_tee{
+    display: block;
+}
+
+.product:hover .img_hov_stripe{
+    display: block;
+}
+
+.product:hover .img_hov_maglione_esprit{
+    display: block;
+}
+
+/* #endregion HOVER */
 
 /* #endregion MAIN */
 
