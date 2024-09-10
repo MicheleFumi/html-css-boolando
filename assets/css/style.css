@@ -17,6 +17,10 @@ main{
 
 }
 
+/* #endregion COMMON */
+
+/* #region UTILITY */
+
 .bold{
     font-weight: bold;
 }
@@ -24,10 +28,6 @@ a{
     color: white;
     text-decoration: none;
 }
-
-/* #endregion COMMON */
-
-/* #region UTILITY */
 
 
 /* #endregion UTILITY */
@@ -59,12 +59,15 @@ header{
         width: 5rem;
     }
     
+}
+/* #endregion HEADER */
 
-
-
-
+/* #region MAIN */
+.product{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
 }
 
-
-
-/* #endregion HEADER */
+/* #endregion MAIN */
