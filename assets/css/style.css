@@ -320,26 +320,22 @@ footer{
    
 }
 .foot_container{
-   padding: 2rem;
-    position: relative;
+   padding: 1rem;
+   /*  position: relative; */
     width: 70%;
     margin: auto;
+    display: flex;
+
+    h4{
+        margin-bottom: 0.5rem;
+    }
 
 }
-.foot_link{
-    margin-top: 1rem;
-    padding-left: 3px;
+.foot_link, a{
+    padding-right: 0.5rem;
 }
-.foot_icon{
-    position: absolute;
-    left: 90%;
-    top: 56%;
+.foot_icon, i{
+    padding-left: 0.25rem;
 }
-.foot_find{
-    position: absolute;
-    left: 88%;
-    top: 26%;
-}
-
 
 /* #endregion FOOTER */
